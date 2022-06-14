@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+
+body{
+    background-color: rgb(120, 120, 120);
+    margin: 0;
+    padding: 0;
+}
+#title{
+    text-align: center;
+    color: beige;
+}
+footer{
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer>h5{
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+}
+#nav{
+    list-style-type: none;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+/* #nav>li::marker{
+    font-size: 40px;
+    color: aquamarine;
+    content: "😎"
+
+} */
+#nav>li{
+    margin-right:20px ;
+    font-weight: bolder;
+    padding: 20;
+}
+    
+#nav>li>a{
+    text-decoration: none;
+    color: rgb(30, 0, 255);
+
+
+}
+#nav>li>a:hover{
+    color: rgb(20, 150, 200);
+    text-shadow: 0 0 10px blue,0 0 15px blue;
+}
+.navbar{
+    background-color: rgb(200, 200, 200);
+    position: sticky;
+    top: 0;
+}
+.sidebar{
+    border: 3px dotted aqua;
+    width: 30%;
+}
+.sidebar>ol{
+    list-style-type: lower-greek;
+    font-size: 25px;
+}
+.sidebar>ol>li::marker{
+    color: rgb(180, 17, 17);
+}
+
+.container{
+    margin: 10px;
+    display: flex;
+}
+.blog{
+    margin: 0px;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.flexbox{
+    position: relative;
+    /* left: 80px; */
+    margin: 20 auto;
+width: 80%;
+border: 3px solid blue;
+
+}
+.flexbox div{
+    width: 100px;
+    height: 100px;
+
+}
+#box1{
+    background-color: brown;
+    /* transform: matrix(0.5, 4, 2, 1, 2, 2 ); */
+
+}
+#box2{
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    /* transform: translateX(140px); */
+}
+#box3{
+    background-color: blueviolet;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    /* transform: skew(20deg); */
+
+}
+#box4{
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 60px;
+    /* z-index: 1; */
+    /* transform: scaleY(20%); */
+}
+#box5{
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 180px;
+    /* z-index: 2; */
+    /* transform: rotate(45deg); */
+}

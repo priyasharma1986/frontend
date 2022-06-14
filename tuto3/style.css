@@ -1,0 +1,52 @@
+table, th, td{
+    border: 2px solid blue;
+    border-collapse: collapse;
+}
+td, th{
+    padding: 10px;
+}
+table{
+    margin: 30px;
+    
+}
+#tableLayout{
+    background-color: coral;
+
+}
+#tableLayout th, #tableLayout td:nth-child(1){
+    color: aquamarine !important;
+
+
+}
+#tableLayout td:not(:nth-child(1)){
+
+    color: white;
+}
+#tableLayout tr:nth-child(2n){
+    background-color: rgb(149, 30, 223);
+
+}
+#tableLayout tr:nth-child(2n)>td{
+    color: yellow;
+}
+#line{
+    width: 800px;
+    text-align: center;
+  
+}
+#line th, #line td, #line{
+    border: none !important;
+}
+#line th, #line td{
+    border-bottom: 3px solid green !important;
+    border-right: 2px solid blue !important;
+}
+#line td{
+    height: 50px;
+    vertical-align: bottom;
+}
+#line td:nth-child(1){
+    text-align: end;
+}
+
+
