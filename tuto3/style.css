@@ -38,8 +38,13 @@ table{
     border: none !important;
 }
 #line th, #line td{
-    border-bottom: 3px solid green !important;
+    border-bottom: 4px solid green !important;
     border-right: 2px solid blue !important;
+}
+#line th{
+    border-top: 4px solid green !important;
+    border-left:  4px solid green !important;
+    border-right:  4px solid green !important;
 }
 #line td{
     height: 50px;
@@ -47,6 +52,11 @@ table{
 }
 #line td:nth-child(1){
     text-align: end;
+}
+#line tr:hover{
+    background-color: green;
+    cursor: progress;
+    box-shadow: 0 10px 5px rgb(20, 200, 20) ;
 }
 
 

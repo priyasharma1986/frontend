@@ -1,0 +1,87 @@
+body{
+    background-image: url(https://cdn.wallpapersafari.com/1/36/B9SjRo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;   
+    padding: 0;
+
+}
+.navbar{
+    background-color: darkmagenta;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+    color: rgb(19, 8, 90);
+    align-items: center;
+    justify-content: flex-start;
+    width: 30%;
+}
+.logo>img{
+    width: 70px;
+    margin: 20px;
+}
+.nav{
+    width: 40%;
+}
+
+.nav ul{
+  
+    list-style-type: none;
+    display: flex;
+    color: rgb(19, 8, 90);
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size:x-large;
+    color: rgb(19, 8, 90);
+}
+.sidebar{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+
+}
+.sidebar ul{
+    list-style-type: none;
+    background-color: burlywood;
+    color: darkblue;
+
+}
+    
+ 
+footer{
+    background-color:darkmagenta;
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+    
+}
+footer{
+    position: fixed;
+    padding: 0;
+    text-align: center;
+    font-size: x-large;
+    color:rgb(19, 8, 90);
+    justify-content: space-evenly;
+}  
+footer ul{
+    width: 20%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: right;
+}
+
+
+    
