@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Opdract2</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/119/119596.png" alt="logo">
+                <h1>JavaFront</h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li id="project">Projects
+                        <ul id="folder">
+                            <li><a href="../Opdracht1/index.html">Layout</a></li>
+                            <li><a href="../tuto10/index.html">Rock-Paper_Scissor</a></li>
+                        </ul>
+                    </li>
+                
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </header>
+    <div class="submit">
+        <form id="welcomeMsg" action="#" method="get" onsubmit="event.preventDefault()">
+        
+            <input type="text" name="name" id="name" placeholder="Name">
+            <input type="submit" value="Submit" onclick="search()">
+            <!-- onclick="document.getElementById('Welcome').innerHTML = document.getElementById('name').value"> -->   
+        </form>
+        <h2 id="welcome">Welcome Stranger</h2>
+    </div>
+    <main>
+     
+        <div class="sidebar">
+            <ul id="itemList">
+                <li onclick="toonItem(this)" ondblclick="closeItems(this)">
+                    <h1>First Blog Item</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, maxime sit. Ducimus, aperiam.
+                        Nesciunt a assumenda quo, deserunt, suscipit ad explicabo nihil omnis magni excepturi,
+                        cupiditate iusto ut natus illum!</p>
+                        </li>
+                <li onclick="toonItem(this)" ondblclick="closeItems(this)">
+                    <h1>Second Blog Item</h1>
+               
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut suscipit nesciunt nihil quidem vel,
+                    asperiores maiores quis blanditiis ipsa earum soluta deleniti consectetur est. Possimus quasi quia
+                    illo facilis cumque.</p>
+                </li>
+                <li onclick="toonItem(this)" ondblclick="closeItems(this)">
+                    <h1>Third Blog Item</h1>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate assumenda, rem non officiis aut
+                    possimus aliquid cum nobis nam ipsam. Adipisci explicabo ut quis aliquam cupiditate quisquam
+                    voluptatibus sequi error?</p>
+                </li>
+                <li onclick="toonItem(this)" ondblclick="closeItems(this)">
+                    <h1>Fourth Blog Item</h1>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quam rerum magni, earum sapiente
+                    totam deserunt nobis? Numquam dolore quaerat repudiandae consectetur, voluptate exercitationem, iure
+                    nemo ab temporibus deserunt eum!</p>
+                </li>
+                <li onclick="toonItem(this)" ondblclick="closeItems(this)">
+                    <h1>Fifth Blog Item</h1>
+                
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo veniam asperiores hic
+                        excepturi fugiat doloribus accusamus velit odio blanditiis. Animi, possimus porro. Aliquid quia
+                        voluptate commodi est cupiditate iste quos?</p>
+                    </li>
+                
+            </ul>
+        </div>
+        <div class="content">
+           
+
+            <img src="https://media.istockphoto.com/vectors/freelancer-worker-cartoon-busy-woman-vector-set-vector-id1323490941?k=20&m=1323490941&s=612x612&w=0&h=EgtJzWP33h4UCQ845oFLuGE_S21hzLoczyt-v771GVM=" alt="beach">
+        </div>
+    </main>
+
+    <footer>
+
+        <h5>&copy; Priya 2022</h5>
+
+        <ul id="footer">
+            <li><a href="contact.html">Contact</a></li>
+            <li> <a href="https://github.com/priyasharma1986">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968896.png" alt="logogit" width="30px"></a>
+        </li>
+        </ul>
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <a href="https://github.com/priyasharma1986"> <i class="fa fa-github fa-5x"></i>Github</a> -->
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
